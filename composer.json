@@ -1,0 +1,25 @@
+{
+    "name" : "groff/favorite-restaurants",
+    "type": "project",
+    "description": "A sample application for review by the GoFundMe hiring team.",
+    "keywords" : ["restaurants", "GoFundMe"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Groff",
+            "email": "andrew.p.groff@gmail.com",
+            "homepage": "http://groff.co",
+            "role": "Developer"
+        }
+    ],
+    "require" : {
+        "php" : ">=5.3.0",
+        "groff/command": "dev-master",
+        "j4mie/idiorm": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Groff": "."
+        }
+    }
+}

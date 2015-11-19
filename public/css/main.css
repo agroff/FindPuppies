@@ -1,0 +1,54 @@
+body {
+    padding-top: 50px;
+}
+.starter-template {
+    padding: 40px 0 0;
+    text-align: center;
+}
+.main-input{
+    width: 100%;
+}
+.mdl-textfield__label,
+.mdl-textfield,
+.mdl-textfield__input {
+    font-size: 26px;
+}
+.mdl-textfield {
+    width: 100%;
+}
+.left-aligned{
+    text-align:left;
+}
+.resultsHeader{
+    font-weight: bold;
+
+}
+.resultsContainer{
+    min-height:500px;
+}
+
+ #restaurantResults .row{
+     border-radius: 2px;
+     max-width: 555px;
+     padding: 5px;
+     background-color: #F7F7F7;
+     margin: 1px auto;
+ }
+#searchContainer{
+    margin-bottom:-20px;
+}
+#restaurantResults .row:hover{
+    background-color: #F1F1F1;
+}
+ /*#resultsHeader, #noResults{*/
+#loadingState, #resultsHeader, #noResults{
+    display:none;
+}
+#loadingContainer{
+    position: absolute;
+    color: #ccc;
+    padding: 22px 10px 0 0;
+    text-align: right;
+    right: 15px;
+    top: 0;
+}

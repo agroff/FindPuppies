@@ -1,0 +1,11 @@
+#!/usr/bin/env php
+<?php
+
+$_SERVER["DOCUMENT_ROOT"] = __DIR__;
+
+include("bootstrap/initialize.php");
+
+$command = new Groff\Restaurant\Command\Install();
+$status = $command->run();
+
+exit($status);
