@@ -1,9 +1,9 @@
 <?php view( 'header' ); ?>
 
 	<div class="starter-template">
-		<h1>Find your favorite restaurants</h1>
+		<h1>Find Puppies Near You</h1>
 
-		<p class="lead">Search by restaurant name or cuisine type</p>
+		<p class="lead">Enter the name of the puppy you're looking for. </p>
 	</div>
 
 	<div class="row">
