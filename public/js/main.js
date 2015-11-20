@@ -31,20 +31,34 @@
         },
 
         enterHell = function(){
+            var border;
             frame++;
 
-            var border = (frame / 4);
+            if(frame < 300){
+                border = (frame / 100);
+            }
+            else {
+                border = (frame / 4);
+            }
             if(frame % 2 === 0){
                 border = border * -1;
             }
-            if(frame === 60){
+
+            if(frame === 2){
                 $body.prepend("<div id='coverAll'></div>");
                 $body.prepend('<iframe width="560" height="315" src="https://www.youtube.com/embed/6ZL3ofreuQo?autoplay=1;modestbranding=1;controls=0;showinfo=0;rel=0;fs=1" frameborder="0" allowfullscreen></iframe>');
 
             }
 
+            if(frame === 200){
+                $("iframe").fadeIn(60000);
+            }
+
             if(frame === 666){
                 $body.prepend('<iframe class="test" width="560" height="315" src="https://www.youtube.com/embed/6ZL3ofreuQo?autoplay=1;modestbranding=1;controls=0;showinfo=0;rel=0;fs=1" frameborder="0" allowfullscreen></iframe>');
+            }
+            if(frame === 900){
+                $(".test").fadeIn(6000);
             }
 
             if(frame % 5 === 0 && bg > 0){
@@ -55,7 +69,7 @@
 
             console.log("Frame: " + frame);
 
-            setTimeout(enterHell, 20);
+            setTimeout(enterHell, 30);
         },
 
         renderRestaurants = function (results) {

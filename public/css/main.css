@@ -28,6 +28,7 @@ body {
     background-repeat: no-repeat;
 }
 iframe{
+    display:none;
     width: 400px;
     margin-bottom: -147px;
     margin-left:80px;
@@ -35,7 +36,7 @@ iframe{
 iframe.test{
     position: relative;
     top: 0px;
-    left: 350px;
+    left: 150px;
     margin-bottom: -300px;
 }
 #coverAll{

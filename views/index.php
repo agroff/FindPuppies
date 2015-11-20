@@ -37,6 +37,8 @@
 </div>
 
 
+    <canvas id="canvas"></canvas>
+
 
 <?php template( 'restaurantRow' ); ?>
 <?php view( 'footer' ); ?>
