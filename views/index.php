@@ -14,7 +14,7 @@
 			<form action="javascript:void(0);">
 				<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="searchContainer">
 					<input class="mdl-textfield__input main-input" type="text" id="findRestaurants" autocomplete="off">
-					<label class="mdl-textfield__label" for="findRestaurants">Find a Restaurant</label>
+					<label class="mdl-textfield__label" for="findRestaurants">Find a puppy!</label>
 				</div>
 			</form>
 

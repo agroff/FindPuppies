@@ -46,7 +46,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="#">Favorite Restaurants</a>
+			<a class="navbar-brand" href="#">Find Puppies</a>
 		</div>
 		<div id="navbar" class="collapse navbar-collapse">
 			<ul class="nav navbar-nav">
@@ -57,4 +57,4 @@
 	</div>
 </nav>
 
-<div class="container">
+<div class="container main">
