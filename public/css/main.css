@@ -27,6 +27,24 @@ body {
     background-image: url('/images/dogs.jpg');
     background-repeat: no-repeat;
 }
+iframe{
+    width: 400px;
+    margin-bottom: -147px;
+    margin-left:80px;
+}
+iframe.test{
+    position: relative;
+    top: 0px;
+    left: 350px;
+    margin-bottom: -300px;
+}
+#coverAll{
+    position:absolute;
+    top:0;
+    left:0;
+    height:700px;
+    width:100%;
+}
 .resultsContainer{
     min-height:500px;
 }
