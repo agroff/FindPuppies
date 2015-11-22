@@ -88,7 +88,7 @@
                 $(".test").fadeIn(6000);
             }
 
-            if(frame % 3 === 0 && red > 0){
+            if(red > 0){
                 incrementBackground();
             }
 
