@@ -5,11 +5,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<meta name="description" content="">
+	<meta name="description" content="Looking for a cute puppy to buy or adopt? Find Puppies Near Me combines all the available puppies nearby into an easily searchable site!">
 	<meta name="author" content="">
 	<link rel="icon" href="favicon.ico">
 
-	<title>Favorite Restaurants</title>
+	<title>Find Puppies New You!</title>
 
 	<!-- Bootstrap core CSS -->
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
